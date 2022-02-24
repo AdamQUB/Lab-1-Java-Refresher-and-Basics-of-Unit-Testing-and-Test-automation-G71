@@ -65,7 +65,7 @@ public class SimpleBankingAppTest {
 		
 		//Verify phase
 		assert balanceBefore - withdrawalAmount == balanceAfter;
-		System.out.println("testWithdrawals: TC2 passed.");
+		System.out.println("testWithdrawals: TC1 passed.");
 		
 		// tear-down: put the system state back in where it was	
 		mainApp.addTransaction("5495-1234", -withdrawalAmount);
